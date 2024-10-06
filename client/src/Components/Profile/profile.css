@@ -1,0 +1,149 @@
+.profile {
+  background-color: #050819;
+  color: white;
+}
+.custom-outline {
+  border-width: 3px;
+  /* Adjust the size of the outline */
+  border-color: white;
+}
+.profile_picture {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* box-shadow: 0 1px 0px 0px wheat; */
+  height: 300px;
+  width: 300px;
+  margin: 0, 0px, 0, 100px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+picture {
+  height: 92%;
+  width: 92%;
+}
+.top_buttons {
+  margin: 20px;
+}
+.icons {
+  margin: 10px;
+}
+.profile_picture:hover {
+  transform: scale(1.07);
+  transition: 1s ease-out;
+}
+.icons:hover {
+  transform: scale(1.5);
+}
+@media screen and (max-width: 1110px) {
+  .profile_picture {
+    margin: 0 0px 0 80px;
+  }
+  .float-start1 {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 910px) {
+  .profile_picture {
+    height: 320px;
+    width: 320px;
+    margin: 0 0 0 4px;
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+  }
+
+  .float-start1 {
+    font-size: 16px;
+  }
+}
+/* @media screen and (max-width: 810px) {
+  .profile_picture {
+    margin: 0 !important;
+  }
+  .profile_content {
+    flex-direction: column-reverse;
+    margin: 40px 0 0 0;
+  }
+  .buttons1 {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .float-start1 {
+    font-size: 16px;
+  }
+} */
+@media (max-width: 576px) {
+  .icons1 {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+  }
+}
+@media (max-width: 576px) {
+  .picture {
+    width: 80%; /* Adjust width for small screens */
+    max-width: 100%; /* Ensures it doesn't exceed the screen width */
+    height: auto;
+  }
+  .float-start1{
+    justify-content: center;
+    display: flex;
+  }
+  .buttons1 {
+    display: flex;
+    justify-content: space-between;
+  }
+  .profile_picture {
+    display: flex; /* Activate flexbox for centering */
+    justify-content: center; /* Centers the content horizontally */
+    align-items: center; /* Centers the content vertically */
+    height: 300px;
+    width: 300px;
+    margin: 0 auto; /* Ensures the container is centered in its parent */
+    box-shadow: 0 2px 0px 0px white;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 810px) {
+  .picture {
+    width: 80%; /* Adjust width for small screens */
+    max-width: 100%; /* Ensures it doesn't exceed the screen width */
+    height: auto;
+  }
+
+  .profile_picture {
+    display: flex; /* Activate flexbox for centering */
+    justify-content: center; /* Centers the content horizontally */
+    align-items: center; /* Centers the content vertically */
+    height: 300px;
+    width: 300px;
+    margin: 0 auto; /* Ensures the container is centered in its parent */
+    box-shadow: 0 2px 0px 0px white;
+  }
+    .icons1 {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+  }
+    .float-start1{
+    justify-content: center;
+    display: flex;
+  }
+    .buttons1 {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media (max-width: 576px) {
+  .details {
+    /* display: flex; */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    /* margin-left: 20px; */
+    place-items: center;
+    
+  }
+ 
+}
+
